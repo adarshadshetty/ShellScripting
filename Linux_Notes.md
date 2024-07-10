@@ -38,3 +38,11 @@ touch filename
 cat filename
 ```
 
+```
+#!/bin/bash
+```
+->
+```
+which bash
+```
+-> /usr/bin/bash
