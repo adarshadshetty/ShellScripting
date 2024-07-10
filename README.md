@@ -15,3 +15,12 @@ chmod 754 hello.sh
 ```
 ./hello.sh
 ```
+# Result of 'hello.sh'
+```
+ubuntu@ip-172-31-10-149:~/shellscript$ chmod 754 hello.sh
+ubuntu@ip-172-31-10-149:~/shellscript$ ./hello.sh
+Hi Adarsha D Shetty
+Learners: Read The DevOps Practically
+Yes Definitly
+ubuntu@ip-172-31-10-149:~/shellscript$
+```
