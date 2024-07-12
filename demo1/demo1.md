@@ -1,2 +1,0 @@
-## Chmod +x <filename>
-## ./<filename>
