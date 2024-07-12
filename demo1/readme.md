@@ -1,0 +1,2 @@
+### chomd +x <filename>
+### ./<filename>
