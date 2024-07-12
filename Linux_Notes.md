@@ -71,3 +71,4 @@ cat/etc/shells
 ```
 #!/bin/bash
 ```
+![Screenshot 2024-07-12 072346](https://github.com/user-attachments/assets/ebcd96ec-a85c-4954-8a1a-7e1effb8ce2a)
