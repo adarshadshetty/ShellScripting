@@ -145,3 +145,8 @@ ubuntu@ip-172-31-10-149:~$ echo $var
 Fri Jul 12 02:39:36 UTC 2024
 ubuntu@ip-172-31-10-149:~$
 ```
+
+### To varify the wether git installed or not 
+```
+rpm -qa|grep git
+```
