@@ -43,3 +43,4 @@ This is the list of big files in the file system
 8.0K    ./.viminfo
 [ec2-user@ip-172-31-13-210 ~]$ 
 ```
+### Result -> It will sort file from biggest to smallest.
