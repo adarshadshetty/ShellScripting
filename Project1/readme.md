@@ -150,3 +150,16 @@ ubuntu@ip-172-31-10-149:~$
 ```
 rpm -qa|grep git
 ```
+## Result 
+```
+[ec2-user@ip-172-31-13-210 ~]$ rpm -qa|grep git
+crypto-policies-20220428-1.gitdfb10ea.amzn2023.0.2.noarch
+rng-tools-6.14-1.git.56626083.amzn2023.0.3.x86_64
+crontabs-1.11-24.20190603git.amzn2023.0.2.noarch
+net-tools-2.0-0.59.20160912git.amzn2023.0.3.x86_64
+crypto-policies-scripts-20220428-1.gitdfb10ea.amzn2023.0.2.noarch
+git-core-2.40.1-1.amzn2023.0.3.x86_64
+git-core-doc-2.40.1-1.amzn2023.0.3.noarch
+git-2.40.1-1.amzn2023.0.3.x86_64
+[ec2-user@ip-172-31-13-210 ~]$
+```
