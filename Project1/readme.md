@@ -20,3 +20,9 @@ ubuntu@ip-172-31-10-149:~$
 # if-else statement 
 
 ![Screenshot 2024-07-12 075410](https://github.com/user-attachments/assets/a524e4ef-a784-45e9-9a59-7c872a11d586)
+
+# if-elif statement 
+
+![Screenshot 2024-07-12 075535](https://github.com/user-attachments/assets/27aeb56f-59b2-495c-9afa-742056acd33b)
+
+
