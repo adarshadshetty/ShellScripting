@@ -17,3 +17,6 @@ ubuntu@ip-172-31-10-149:~$ echo $var
 devopsclass
 ubuntu@ip-172-31-10-149:~$
 ```
+# if-else statement 
+
+![Screenshot 2024-07-12 075410](https://github.com/user-attachments/assets/a524e4ef-a784-45e9-9a59-7c872a11d586)
