@@ -86,3 +86,10 @@ Use%
 13%
 [ec2-user@ip-172-31-13-210 ~]$ df -h |grep /dev/xvda1 |awk '{print $5}'
 ```
+
+```
+[ec2-user@ip-172-31-13-210 ~]$ df -h |grep /dev/xvda1 |awk '{print $5}'|cut -d '%' -f1
+20
+13
+[ec2-user@ip-172-31-13-210 ~]$
+```
