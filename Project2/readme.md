@@ -93,3 +93,17 @@ Use%
 13
 [ec2-user@ip-172-31-13-210 ~]$
 ```
+
+### chmod +x <filename>
+### ./<filename>
+
+# Result 
+```
+ec2-user@ip-172-31-13-210 ~]$ ./new.sh 
+Check disk usage in Linux system
+20
+13% of disk is filled
+./new.sh: line 5: [: too many arguments
+enough disk is available
+```
+-> In above o/p i am getting error , but i am not getting it please correct it if anyone got the error.
