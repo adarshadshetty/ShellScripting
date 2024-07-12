@@ -54,3 +54,20 @@ days it was only user interface available on Unix like system such as Linux numb
 ```
 cat/etc/shells
 ```
+### Output
+```
+/bin/sh
+/usr/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/usr/bin/dash
+/usr/bin/screen
+/usr/bin/tmux
+```
+
+### Shebang , it means a it must bash shell.
+```
+#!/bin/bash
+```
