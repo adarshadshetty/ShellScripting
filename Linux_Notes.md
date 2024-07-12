@@ -47,6 +47,6 @@ which bash
 ```
 -> /usr/bin/bash
 
-Shell script is a list of commands in a computer program that is run by the initial which is the command line interpreter a shell script usually has a comments that describe the steps the different operation\ performed by the shell scripts are program execution file manipulation text printing shell script is a program that takes command from the keyboard and use them to the operating system to perform in the old
+Shell script is a list of commands in a computer program that is run by the initial which is the command line interpreter a shell script usually has a comments that describe the steps the different operation performed by the shell scripts are program execution file manipulation text printing shell script is a program that takes command from the keyboard and use them to the operating system to perform in the old
 days it was only user interface available on Unix like system such as Linux number is we have graphical user interface in addition to command line interface such as shell.
 
