@@ -30,5 +30,7 @@ wc --lines < file_name
 grep -o -i word_name file_name | wc -l
 ```
 
-
-
+## Replace the Word in the file 
+```
+sed 's/Harry/Harrie/g' doc.txt > doc1.txt
+```
