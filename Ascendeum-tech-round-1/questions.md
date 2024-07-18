@@ -9,7 +9,7 @@
 ## Question-2a --> Check the given URL is reachable or Not. [google.com , github.com,nonexistentwebsite.example]
 ![Screenshot 2024-07-17 203147](https://github.com/user-attachments/assets/93213cb3-735f-4d9d-8a70-91803c68bcc3)
 
-## Question-3 --> Check the number of line in Harry-potter stroy , Replace Harry with Your Name , Count the word Harry.
+## Question-3 --> Check the number of line in Harry-potter story , Replace Harry with Your Name , Count the word Harry.
 
 Using grep -c alone will count the number of lines that contain the matching word instead of the number of total matches.\
 The -o option is what tells grep to output each match in a unique line and then wc -l tells wc to count the number of lines.\
