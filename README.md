@@ -55,7 +55,7 @@ ubuntu@ip-172-31-10-149:~/shellscript$
 
 -------------------------------------------------------------------------------------------------------------------------------------
 # List some of the commonly used shell commands ?
-1.ls
+1.ls \
 2.cp
 3.mv
 4.mkdir
@@ -72,7 +72,7 @@ ubuntu@ip-172-31-10-149:~/shellscript$
 2.sar
 
 # write a script to print only errors from a remote log
-1.curl google.com
+1.curl google.com \
 2.curl google.com | grep HREF
 
 ```
