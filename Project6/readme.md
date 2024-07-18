@@ -22,3 +22,6 @@ sudo yum remove wget -y
 ```
 rpm -qa|grep wget
 ```
+
+## Installing Prometheus software using a shell script file output image
+![Screenshot 2024-07-18 143716](https://github.com/user-attachments/assets/6cc57bd0-c4d1-41d8-8fec-b84ac0557ec8)
