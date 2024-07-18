@@ -70,6 +70,7 @@ ubuntu@ip-172-31-10-149:~/shellscript$
 # To debug the system we use following command
 1.top\
 2.sar\
+3. set-x your script run in the debug mode
 
 # write a script to print only errors from a remote log
 1.curl google.com \
@@ -86,4 +87,74 @@ ubuntu@ip-172-31-10-149:~/shellscript$
 
 ```
 curl https://github.com/iam-veeramalla/sandbox/blob/main/log/dummylog01122022.log | grep error > error.txt
+```
+## What is crontab in linux ? Can you provide an example of usage?
+#### Send report of node health everyday on 6pm , use crontab to automate this task.
+
+## How to open a read-only file?
+#### vim -r test.txt
+
+## Diff b/w soft and hard link ?
+
+## Diff b/w break and continue statement ?
+
+## Diff type of loops and when to use ?
+
+## Is bash dynamic or statically typed and why ? 
+
+
+# Explain about a network troubleshooting utility ?
+### tracerout
+```
+traceroute google.com
+```
+
+
+```
+[ec2-user@ip-172-31-13-210 ~]$ traceroute google.com
+traceroute to google.com (172.217.174.78), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  99.82.177.14 (99.82.177.14)  52.986 ms 72.14.205.175 (72.14.205.175)  57.495 ms 99.82.177.14 (99.82.177.14)  53.007 ms
+ 3  99.82.177.15 (99.82.177.15)  54.713 ms 72.14.205.174 (72.14.205.174)  52.768 ms 99.82.177.15 (99.82.177.15)  55.859 ms
+ 4  * * *
+ 5  142.251.241.0 (142.251.241.0)  58.298 ms  60.279 ms  60.247 ms
+ 6  142.250.63.142 (142.250.63.142)  62.317 ms  56.409 ms 192.178.109.86 (192.178.109.86)  54.797 ms
+ 7  142.251.230.135 (142.251.230.135)  55.998 ms  57.244 ms *
+ 8  142.251.230.216 (142.251.230.216)  57.416 ms 142.250.215.14 (142.250.215.14)  61.002 ms 142.251.231.114 (142.251.231.114)  65.289 ms
+ 9  142.250.208.227 (142.250.208.227)  61.695 ms 192.178.110.249 (192.178.110.249)  59.209 ms 142.250.226.67 (142.250.226.67)  62.212 ms
+10  142.250.228.49 (142.250.228.49)  60.977 ms 142.250.228.51 (142.250.228.51)  57.593 ms 142.250.228.49 (142.250.228.49)  57.949 ms
+11  bom07s25-in-f14.1e100.net (172.217.174.78)  58.922 ms  59.377 ms  56.444 ms
+[ec2-user@ip-172-31-13-210 ~]$
+```
+
+# tracepath
+```
+[ec2-user@ip-172-31-13-210 ~]$ tracepath google.com
+ 1?: [LOCALHOST]                      pmtu 9001
+ 1:  ip-172-31-0-1.ap-south-1.compute.internal             0.232ms pmtu 1500
+ 1:  240.1.168.13                                        988.923ms asymm  8
+ 2:  72.14.205.175                                        57.034ms asymm 13
+ 3:  72.14.205.174                                        58.445ms asymm 13
+ 4:  no reply
+ 5:  no reply
+ 6:  no reply
+ 7:  no reply
+ 8:  no reply
+ 9:  no reply
+10:  no reply
+11:  no reply
+12:  no reply
+13:  no reply
+14:  no reply
+^C
+[ec2-user@ip-172-31-13-210 ~]$
+```
+
+# How will you sort list of names in file ?
+sort command
+
+# How will you manage logs of a system that generate huge logs files everyday ? 
+### Logrotate
+```
+logrotate ......
 ```
