@@ -11,6 +11,10 @@
 
 ## Question-3 --> Check the number of line in Harry-potter stroy , Replace Harry with Your Name , Count the word Harry.
 
+Using grep -c alone will count the number of lines that contain the matching word instead of the number of total matches.\
+The -o option is what tells grep to output each match in a unique line and then wc -l tells wc to count the number of lines.\
+This is how the total number of matching words is deduced.
+
 
 
 
