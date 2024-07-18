@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Download the prometheus binaries"
-if [ -e /home/ec2-user/prometheus-2.32.1.linux-amd64.tar.gz ];
+if [ -e /home/ec2-user/prometheus-2.32.1.linux-amd64.tar.gz ];   # -e , check the if file is already existing or not.
 then
         echo "File is already existiong so no need to download "
         tar -zxvf /home/ec2-user/prometheus-2.32.1.linux-amd64.tar.gz
