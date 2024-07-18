@@ -83,3 +83,7 @@ ubuntu@ip-172-31-10-149:~/shellscript$
 <A HREF="http://www.google.com/">here</A>.
 [ec2-user@ip-172-31-13-210 ~]$ 
 ```
+
+```
+curl https://github.com/iam-veeramalla/sandbox/blob/main/log/dummylog01122022.log | grep error > error.txt
+```
