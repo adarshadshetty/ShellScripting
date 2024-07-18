@@ -9,6 +9,8 @@
 ## Question-2a --> Check the given URL is reachable or Not. [google.com , github.com,nonexistentwebsite.example]
 ![Screenshot 2024-07-17 203147](https://github.com/user-attachments/assets/93213cb3-735f-4d9d-8a70-91803c68bcc3)
 
+## Question-3 --> Check the number of line in Harry-potter stroy , Replace Harry with Your Name , Count the word Harry.
+
 
 
 
