@@ -15,6 +15,20 @@ Using grep -c alone will count the number of lines that contain the matching wor
 The -o option is what tells grep to output each match in a unique line and then wc -l tells wc to count the number of lines.\
 This is how the total number of matching words is deduced.
 
+## Count the number of words in the file
+```
+wc --word < file_name
+```
+
+## Count the number of lines in the word
+```
+wc --lines < file_name
+```
+
+## Count the occurencess of word in the file
+```
+grep -o -i word_name file_name | wc -l
+```
 
 
 
