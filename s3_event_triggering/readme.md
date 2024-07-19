@@ -14,3 +14,12 @@ Expedia: They use S3 event triggering to automatically process and analyze data 
 
 ![1_wLQ4IqMMUnf0uynfI77VPw](https://github.com/user-attachments/assets/acf98a07-dda3-4cd3-a5a2-761d3fed942e)
 
+## Install JQ
+```
+apt install jq
+```
+
+## Install ZIP
+```
+apt install zip
+```
