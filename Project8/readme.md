@@ -1,3 +1,10 @@
+# Before doing this project , kindly install the docker in your machine.
+https://medium.com/@srijaanaparthy/step-by-step-guide-to-install-docker-on-amazon-linux-machine-in-aws-a690bf44b5fe
+
+
+
+
+
 ## Project Overview
 ![Screenshot 2024-07-19 171217](https://github.com/user-attachments/assets/82931bd8-9edd-4fdc-aad3-d3acc9c99e10)
 
