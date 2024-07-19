@@ -1,4 +1,4 @@
-## S3 EVENT TRIGGERING IS USED BY NETFLIX
+## AWS S3 EVENT TRIGGERING IS USED BY NETFLIX , Airbnb, Expedia
 NOTE: REPLACE YOUR AWS ACCOUNT ID IN THE LAMBDA FUNCTION CODE.
 
 AWS S3 Event triggering is a very popular project used by top companies in the Industry.
