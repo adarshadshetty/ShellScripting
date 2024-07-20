@@ -10,3 +10,8 @@
 
 ## Command Line Argument
 ![Screenshot 2024-07-20 074719](https://github.com/user-attachments/assets/f76258b5-33b9-491b-a221-1cf00d5dd41b)
+![Screenshot 2024-07-20 074920](https://github.com/user-attachments/assets/3c3eb218-5b47-44d0-81fe-db9e640b60c4)
+
+# Output
+![Screenshot 2024-07-20 085741](https://github.com/user-attachments/assets/95679e02-8112-42ab-b62b-1858a55ffbca)
+![Screenshot 2024-07-20 090555](https://github.com/user-attachments/assets/4b72854c-ae4a-4cb1-b45f-aecf55980b80)
