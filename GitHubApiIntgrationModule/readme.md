@@ -11,3 +11,8 @@ To solve this problem we will writing the script.
 ### To achieve this we will using the github api to retrive the info from api.
 
 
+## How To Export --> export GITHUB_TOKEN , export GITHUB_USERNAME.
+```
+export GITHUB_TOKEN=your_github_token_here
+export GITHUB_USERNAME=username
+```
