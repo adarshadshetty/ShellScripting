@@ -26,11 +26,11 @@ sudo su
 ```
 ### Uninstall the following software
 ```
-yum remove docker git httpd java jenkins
+yum remove docker git httpd
 ```
 ### Run the script followed by the software that you want to install.
 ```
-./main.sh docker  git https java jenkins
+./main.sh docker git httpd
 ```
 
 # End Result 
