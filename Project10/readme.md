@@ -11,7 +11,28 @@
 ## Command Line Argument
 ![Screenshot 2024-07-20 074719](https://github.com/user-attachments/assets/f76258b5-33b9-491b-a221-1cf00d5dd41b)
 ![Screenshot 2024-07-20 074920](https://github.com/user-attachments/assets/3c3eb218-5b47-44d0-81fe-db9e640b60c4)
+![Screenshot 2024-07-20 085741](https://github.com/user-attachments/assets/95679e02-8112-42ab-b62b-1858a55ffbca)
 
 # Output
-![Screenshot 2024-07-20 085741](https://github.com/user-attachments/assets/95679e02-8112-42ab-b62b-1858a55ffbca)
+## Don't run the script in as regular user
 ![Screenshot 2024-07-20 090555](https://github.com/user-attachments/assets/4b72854c-ae4a-4cb1-b45f-aecf55980b80)
+
+## Running Script as root user
+## Execution steps
+
+### Switch to root user
+```
+sudo su
+```
+### Uninstall the following software
+```
+yum remove docker git httpd java jenkins
+```
+### Run the script followed by the software that you want to install.
+```
+./main.sh docker  git https java jenkins
+```
+
+# End Result 
+![Screenshot 2024-07-20 094047](https://github.com/user-attachments/assets/d8aa1a23-2181-49fb-894e-a3b0672e99a6)
+
