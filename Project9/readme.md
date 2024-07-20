@@ -58,3 +58,8 @@ crontab -l
 crontab -e
 ```
 ![Screenshot 2024-07-20 072017](https://github.com/user-attachments/assets/73885d4f-89c2-4895-8ba7-38d366bac08b)
+
+
+# OutPut 
+### I am trying to stop the docker , but docker still in active status , because main.sh script is running evry minute.
+![Screenshot 2024-07-20 072737](https://github.com/user-attachments/assets/679ebbdf-4182-45a4-9140-7e180f231f25)
