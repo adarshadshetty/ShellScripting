@@ -9,3 +9,12 @@
 
 
 ![Screenshot 2024-07-19 190349](https://github.com/user-attachments/assets/d052e70e-c5b4-4487-a83e-b5f6f2e04a03)
+
+# Installing crontab on linux machine
+
+```
+sudo yum install cronie
+sudo systemctl enable crond
+sudo systemctl start crond
+systemctl status crond
+```
