@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 echo "--------------------------------"
 echo "-------welcome to calculator----"
 echo "--------------------------------"
@@ -13,19 +12,22 @@ echo -e "[a]ddition\n[b]Subtraction\n[c]Multiplication\n[d]Division\n"
 read -p "Enter your choice: " choice
 case $choice in
    [aA])
-
+           read_input
            result=$((num1+num2))
            echo "The result for your choice is: $result"
            ;;
    [bB])
+           read_input
            result=$((num1-num2))
            echo "The result for your choice is: $result"
            ;;
    [cC])
+           read_input
            result=$((num1*num2))
            echo "The result for your choice is: $result"
            ;;
    [dD])
+           read_input
            result=$((num1/num2))
            echo "The result for your choice is: $result"
            ;;
