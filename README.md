@@ -153,6 +153,19 @@ traceroute to google.com (172.217.174.78), 30 hops max, 60 byte packets
 # How will you sort list of names in file ?
 sort command
 
+
+```
+ubuntu@Artifactory:~$ ss -ltn
+State      Recv-Q     Send-Q         Local Address:Port          Peer Address:Port     Process
+LISTEN     0          4096           127.0.0.53%lo:53                 0.0.0.0:*
+LISTEN     0          4096              127.0.0.54:53                 0.0.0.0:*
+LISTEN     0          128                127.0.0.1:6010               0.0.0.0:*
+LISTEN     0          128                    [::1]:6010                  [::]:*
+LISTEN     0          4096                       *:22                       *:*
+LISTEN     0          100                        *:8080                     *:*
+ubuntu@Artifactory:~$
+```
+
 # How will you manage logs of a system that generate huge logs files everyday ? 
 ### Logrotate
 ```
